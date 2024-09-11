@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --picture-size: 200px;
+}
+
+body {
+    background-color: #f5f5f3;
+}
+
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    width: 2rem;
+    background-color: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.italics {
+    font-style: italic;
+}
+
+/* SECTION 1 */
+
+.header {
+    color: #677b28;
+    font-weight: 600;
+}
+
+
+
+.transparent {
+    opacity: 0.5;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #e4e4df;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 1rem;
+}
+
+.text-content {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.group-name-title {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.group-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    height: var(--picture-size);
+    width: var(--picture-size);
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex: row;
+    gap: 1rem;
+}
+
+.contact-text {
+    font-weight: 600;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.social-logo {
+    box-sizing: border-box;
+    width: calc(var(--picture-size)/7);
+    padding: .1rem;
+}
+
+.social-logo:hover {
+    border: 1px solid #bfcdab;
+    
+}
+
+/* SECTION   2 */
+
+.section-2 {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 3px solid rgb(138, 147, 125);
+}
+
+.section-page {
+    display: flex;
+    flex-direction: column; /* adjust to row when in website view */
+    justify-content: space-between;
+}
+
+.college {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 2rem;
+    align-items: center ;
+}
+
+.group-header {
+    width: max-content;
+    margin-bottom: 1rem;
+}
+
+.rutgers-logo {
+    width: var(--picture-size);
+    margin: 1rem;
+}
+
+.college-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text {
+    font-size: 1rem;
+}
+
+
+.courses-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* adjust to left when in website view */
+    gap: 1rem;
+    width: max-content;
+}
+
+.header {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.courses-wrapper {
+    border: 2px solid #658438;
+    padding: .5rem;
+    
+}
+
+.course {
+    font-size: 1rem;
+    margin: .5rem;
+    margin-left: 2rem;
+}
+
+/* SECTION 3 */
+
+
+
+
+
+
+
+
+
+
+
+
+.large {
+    font-size: 1.8rem;
+}
+
+.medium {
+    font-size: 1.2rem;
+}
